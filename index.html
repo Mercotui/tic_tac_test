@@ -1,12 +1,38 @@
 <!DOCTYPE html>
+<!--Page for setting the users name and invite other users-->
 <html lang=" " dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Tic Tac Toe Bro</title>
-    <link rel="icon" href="favicon.png" sizes="32x32"/>
-    <meta name="description" content="Menno and Tessa build a game. Much meta. Many elements.Such professionals.Wow">
-  </head>
-  <body>
-    Let's do mexicaner
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Toe Bro</title>
+  <link rel="icon" href="favicon.png" sizes="32x32" />
+  <meta name="description" content="Menno and Tessa build a game. Much meta. Many elements.Such professionals.Wow">
+</head>
+
+<body>
+  <h1>Let's play Tic Tac Toe</h1>
+  <p>Please select your name and a game ID to get started or search for a game of another player.</p>
+  <h2> Create a new game </h2>
+  <form class="" action="index.html" method="post" target="_self">
+    <fieldset>
+      <legend>New Game:</legend>
+      <label for="fname">Your Name:</label>
+      <input type="text" id="fname" name="fname" placeholder="Franz">
+      <label for="gname">Game ID:</label>
+      <input type="text" id="gname" name="gname" placeholder="1234">
+      <button type="button" onclick="myScript">Create Game</button>
+    </fieldset>
+  </form>
+  <h2>Join a game</h2>
+  <fieldset>
+    <legend>Join Game:</legend>
+    <label for="fname">Your Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Franz">
+    <label for="jgame">Game ID:</label>
+    <input type="text" id="jgame" name="jgame" placeholder="1234">
+    <button type="button" onclick="myScript">Join Game</button>
+  </fieldset>
+
+</body>
+
 </html>
