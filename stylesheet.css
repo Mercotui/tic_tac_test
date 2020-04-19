@@ -1,27 +1,5 @@
-body {
-background-color: white;
-}
-
-h1 {
-font-family: sans-serif;
-color: black;
-text-align: center;
-}
-
-h2 {
-font-family: sans-serif;
-color: black;
-}
-
-p {
-font-family: sans-serif;
-font-size: 18px;
-border: 2px grey
-}
-
-form {
-font-family: sans-serif;
-color: black;
+#intro {
+  background-color:#ecfbfc;
 }
 
 button {
@@ -32,15 +10,6 @@ button {
  background-color: #f5f5f5;
  border-radius: 8px;
  margin: 25px;
-}
-
-table, th, td {
-  border: 1px solid black;
-  padding: 15px;
-}
-table {
-  width: 500px;
-  height: 500px;
 }
 
 tr td:hover {background-color: #f5f5f5;}
