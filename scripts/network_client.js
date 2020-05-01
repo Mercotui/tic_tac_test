@@ -1,4 +1,4 @@
-// You're absolute dope btw
+// You're absolutely dope btw
 
 const ID_LENGTH = 5;
 
