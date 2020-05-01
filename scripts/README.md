@@ -12,3 +12,7 @@ The current interface is:
 This creates an instance of the class. It automatically connects to the MQTT server,
 creates a new game ID, and subscribes to the MQTT topics for that game.
 
+## tests
+
+This folder has some tests that are used for development.
+See [tests/README.md](tests/README.md).

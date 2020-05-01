@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--Unit test page-->
+<html lang=" " dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tic Tac Test: Test</title>
+  <link rel="icon" href="favicon.png" sizes="32x32" />
+  <style media="screen">
+    table, th, td {
+      padding: 10px;
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+  </style>
+</head>
+
+<body style="text-align: center">
+  <div style="display:inline-block; text-align: left;">
+    <h1>Unit tests for Tic Tac Test</h1>
+    <p>
+      These are some unit tests for Tic Tac Test, they should start automatically.
+    </p>
+    <div style="text-align: center">
+      <img id="test_status_image" src="resources/wait.gif" alt="Test Status" style="display:inline-block;
+      object-fit: cover; width:200px; height:200px;">
+      <br>
+      Test status: <span id="test_status">not started yet</span>
+
+    </div>
+    <h2>Results</h2>
+    <table style="border: 1px solid black;">
+      <thead id="test_results_table">
+        <th>Test</th><th>Result</th>
+      </thead>
+    </table>
+    <div style="font-size: 8pt">
+      <h2>Attribution:</h2>
+      <a href="https://www.behance.net/gallery/31234507/Open-source-Loading-GIF-Icons-Vol-1">"Open source Loading GIF Icons Vol-1"</a><span> by <span>Hassan Alkhateeb</span></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC-ND 4.0</a><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nd_icon.svg" /></a>
+      <br>
+      <a href="https://commons.wikimedia.org/w/index.php?curid=88689801">"File:Noun Project Sad icon 2205270.svg"</a><span> by <span>AomAm, TH</span></span> is licensed under <a href="https://creativecommons.org/licenses/by/3.0?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 3.0</a><a href="https://creativecommons.org/licenses/by/3.0?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js" type="text/javascript"></script>
+  <script src="../network_client.js" charset="utf-8"></script>
+  <script src="./network_client.test.js" charset="utf-8"></script>
+</body>
+
+</html>
